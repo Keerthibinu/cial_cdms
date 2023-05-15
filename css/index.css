@@ -1,0 +1,254 @@
+@keyframes flip-horizontal-bottom {
+  0% {
+    transform: rotateX(0);
+  }
+  to {
+    transform: rotateX(-180deg);
+  }
+}
+.background,
+.dashboard-home-child {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.logout{
+  position: relative;
+  padding-left: calc(100vw - 250px);
+  top: 41px;
+}
+.reset{
+  float: left;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: hidden;
+  width: 150px;
+  margin-top: 0px;
+  font-family: var(--font-abhaya-libre);
+  background: #4B5C18;
+}
+.reset:hover{
+  background: #8BA731;
+  color: #fff;
+}
+.reg{
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  border-style: hidden;
+  width: 80px;
+  font-family: var(--font-abhaya-libre);
+  background: #4B5C18;
+}
+.reg:hover{
+  background: #8BA731;
+  color: #fff;
+}
+.background {
+  top: 122px;
+  background-color: rgba(139, 167, 49, 0.55);
+  height: 1043px;
+}
+.dashboard-home-child {
+  top: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(139, 167, 49, 0.5),
+    rgba(139, 167, 49, 0)
+  );
+  height: 122px;
+}
+.dashboard-home-item {
+  position: absolute;
+  top: 20px;
+  left: 19px;
+  width: 102px;
+  height: 82px;
+  object-fit: cover;
+}
+.cochin-international-aviation {
+  position: absolute;
+  top: 41px;
+  left: calc(50% - 385px);
+  font-size: var(--font-size-13xl);
+  display: inline-block;
+  color: var(--color-darkolivegreen);
+  width: 769px;
+  height: 41px;
+}
+.dashboard-home-child1,
+.dashboard-home-child2,
+.dashboard-home-child3,
+.dashboard-home-child4,
+.dashboard-home-child5,
+.dashboard-home-inner,
+.rectangle-div {
+  position: absolute;
+  width: 33.72%;
+  top: 233px;
+  right: 55.47%;
+  left: 10.81%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-olivedrab-100);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkolivegreen);
+  box-sizing: border-box;
+  height: 108px;
+}
+.dashboard-home-child1:hover,
+.dashboard-home-child2:hover,
+.dashboard-home-child3:hover,
+.dashboard-home-child4:hover,
+.dashboard-home-child5:hover,
+.dashboard-home-inner:hover,
+.rectangle-div:hover {
+  background-color: var(--color-darkolivegreen-100);
+  animation: 1s ease 0s 1 normal none flip-horizontal-bottom;
+  opacity: 1;
+}
+.dashboard-home-child1,
+.dashboard-home-child2,
+.dashboard-home-child3,
+.dashboard-home-child4,
+.dashboard-home-child5,
+.rectangle-div {
+  top: 424px;
+}
+.dashboard-home-child1,
+.dashboard-home-child2,
+.dashboard-home-child3,
+.dashboard-home-child4,
+.dashboard-home-child5 {
+  top: 615px;
+}
+.dashboard-home-child2,
+.dashboard-home-child3,
+.dashboard-home-child4,
+.dashboard-home-child5 {
+  right: 10.94%;
+  left: 55.34%;
+}
+.dashboard-home-child3,
+.dashboard-home-child4,
+.dashboard-home-child5 {
+  top: 806px;
+}
+.dashboard-home-child4,
+.dashboard-home-child5 {
+  top: 424px;
+}
+.dashboard-home-child5 {
+  top: 233px;
+}
+.dashboard-home-child6 {
+  position: absolute;
+  width: 33.72%;
+  top: 806px;
+  right: 55.47%;
+  left: 10.81%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-olivedrab-100);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkolivegreen);
+  box-sizing: border-box;
+  height: 108px;
+}
+.dashboard-home-child15 {
+  position: absolute;
+  width: 33.72%;
+  top: 997px;
+  right: 33.2%;
+  left: 33.07%;
+  border-radius: var(--br-xl);
+  background-color: var(--color-olivedrab-100);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-darkolivegreen);
+  box-sizing: border-box;
+  height: 108px;
+}
+.dashboard-home-child6:hover ,
+.dashboard-home-child15:hover{
+  background-color: var(--color-darkolivegreen-100);
+  animation: 1s ease 0s 1 normal none flip-horizontal-bottom;
+  opacity: 1;
+}
+.admin,
+.engineer {
+  position: absolute;
+  width: 19.14%;
+  top: 270px;
+  left: 18.1%;
+  display: inline-block;
+  height: 34px;
+}
+.engineer:hover {
+  font-size: var(--font-size-11xl);
+}
+.admin {
+  top: 843px;
+  left: 62.63%;
+}
+.auditor,
+.gse,
+.partsmaterials-life-expiry,
+.quality,
+.technician {
+  position: absolute;
+  width: 19.14%;
+  top: 825px;
+  left: 18.1%;
+  display: inline-block;
+  height: 71px;
+}
+.auditor,
+.gse,
+.quality,
+.technician {
+  top: 652px;
+  height: 34px;
+}
+.auditor,
+.quality,
+.technician {
+  left: 62.63%;
+}
+.auditor,
+.technician {
+  top: 270px;
+}
+.auditor {
+  top: 461px;
+  left: 18.1%;
+}
+.permissions{
+  position: absolute;
+  display: inline-block;
+  height: 34px;
+  top: 1035px;
+  left: calc(50% - 147px);
+  width: 294px;
+}
+.tools {
+  margin: 0;
+}
+.tools-equipments-container {
+  position: absolute;
+  width: 19.14%;
+  top: 443px;
+  left: 62.63%;
+  display: inline-block;
+  height: 71px;
+}
+.dashboard-home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: inherit;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-abhaya-libre);
+}

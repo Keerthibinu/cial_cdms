@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-abhaya-libre: "Abhaya Libre";
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-olivedrab-100: #8ba731;
+  --color-darkolivegreen: #4b5c18;
+  --color-darkolivegreen-100: #4b5b17;
+
+  /* border radiuses */
+  --br-xl: 20px;
+}
